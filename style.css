@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #141414;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #1f1f1f;
+  color: #fff;
+  width: 320px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+.location {
+  color: #b3ff00;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.bio {
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.links a:hower {
+  background-color: #b3ff00;
+  color: #000;
+}
